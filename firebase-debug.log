@@ -1,0 +1,188 @@
+[debug] [2018-02-26T19:34:10.479Z] ----------------------------------------------------------------------
+[debug] [2018-02-26T19:34:10.481Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-02-26T19:34:10.482Z] CLI Version:   3.17.4
+[debug] [2018-02-26T19:34:10.482Z] Platform:      darwin
+[debug] [2018-02-26T19:34:10.482Z] Node Version:  v8.8.1
+[debug] [2018-02-26T19:34:10.482Z] Time:          Mon Feb 26 2018 22:34:10 GMT+0300 (+03)
+[debug] [2018-02-26T19:34:10.482Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-26T19:34:10.498Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-26T19:34:10.499Z] > authorizing via signed-in user
+[debug] [2018-02-26T19:34:10.501Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-26T19:34:10.502Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/j7d-4Mpp5HQ32Wj_HVT2R6TkgXGfBfdoeGa_EASrM5geFhPy-E3rVMx-OyHnD5n3',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Feb 26 2018 22:34:10 GMT+0300 (+03)
+[debug] [2018-02-26T19:34:11.167Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-26T19:34:11.199Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mukemmel-projem-e2ff3  
+  
+ Mon Feb 26 2018 22:34:11 GMT+0300 (+03)
+[debug] [2018-02-26T19:34:12.484Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-26T19:34:12.485Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mukemmel-projem-e2ff3/tokens  
+  
+ Mon Feb 26 2018 22:34:12 GMT+0300 (+03)
+[debug] [2018-02-26T19:34:13.432Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/elvanerkaya'...
+[info] 
+[debug] [2018-02-26T19:34:13.434Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mukemmel-projem-e2ff3  
+  
+ Mon Feb 26 2018 22:34:13 GMT+0300 (+03)
+[debug] [2018-02-26T19:34:15.226Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-26T19:34:15.226Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/501388285804/clients/_:getWebAppConfig  
+  
+ Mon Feb 26 2018 22:34:15 GMT+0300 (+03)
+[debug] [2018-02-26T19:34:17.343Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: KoalaApp
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-26T19:42:46.916Z] ----------------------------------------------------------------------
+[debug] [2018-02-26T19:42:46.919Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-02-26T19:42:46.919Z] CLI Version:   3.17.4
+[debug] [2018-02-26T19:42:46.919Z] Platform:      darwin
+[debug] [2018-02-26T19:42:46.919Z] Node Version:  v8.8.1
+[debug] [2018-02-26T19:42:46.919Z] Time:          Mon Feb 26 2018 22:42:46 GMT+0300 (+03)
+[debug] [2018-02-26T19:42:46.919Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-26T19:42:46.935Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-26T19:42:46.936Z] > authorizing via signed-in user
+[debug] [2018-02-26T19:42:46.938Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mukemmel-projem-e2ff3  
+  
+ Mon Feb 26 2018 22:42:46 GMT+0300 (+03)
+[debug] [2018-02-26T19:42:48.442Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-26T19:42:48.442Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mukemmel-projem-e2ff3/tokens  
+  
+ Mon Feb 26 2018 22:42:48 GMT+0300 (+03)
+[debug] [2018-02-26T19:42:49.325Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/elvanerkaya'...
+[info] 
+[debug] [2018-02-26T19:42:49.327Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mukemmel-projem-e2ff3  
+  
+ Mon Feb 26 2018 22:42:49 GMT+0300 (+03)
+[debug] [2018-02-26T19:42:50.779Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-26T19:42:50.779Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/501388285804/clients/_:getWebAppConfig  
+  
+ Mon Feb 26 2018 22:42:50 GMT+0300 (+03)
+[debug] [2018-02-26T19:42:52.732Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: KoalaApp
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-26T19:44:12.514Z] ----------------------------------------------------------------------
+[debug] [2018-02-26T19:44:12.518Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-02-26T19:44:12.518Z] CLI Version:   3.17.4
+[debug] [2018-02-26T19:44:12.518Z] Platform:      darwin
+[debug] [2018-02-26T19:44:12.518Z] Node Version:  v8.8.1
+[debug] [2018-02-26T19:44:12.519Z] Time:          Mon Feb 26 2018 22:44:12 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:12.519Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-26T19:44:12.536Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-26T19:44:12.537Z] > authorizing via signed-in user
+[debug] [2018-02-26T19:44:12.539Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mukemmel-projem-e2ff3  
+  
+ Mon Feb 26 2018 22:44:12 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:13.647Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-26T19:44:13.648Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mukemmel-projem-e2ff3/tokens  
+  
+ Mon Feb 26 2018 22:44:13 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:14.441Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'mukemmel-projem-e2ff3'...
+[info] 
+[info] i  deploying database, storage, firestore, functions, hosting
+[info] Running command: npm --prefix $RESOURCE_DIR run lint
+[info] ✔  functions: Finished running predeploy script.
+[info] i  database: checking rules syntax...
+[debug] [2018-02-26T19:44:17.091Z] >>> HTTP REQUEST PUT https://mukemmel-projem-e2ff3.firebaseio.com/.settings/rules.json?dryRun=true  
+ {
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+} 
+ Mon Feb 26 2018 22:44:17 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:18.878Z] <<< HTTP RESPONSE 200
+[info] ✔  database: rules syntax for database mukemmel-projem-e2ff3 is valid
+[debug] [2018-02-26T19:44:18.879Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/mukemmel-projem-e2ff3  
+  
+ Mon Feb 26 2018 22:44:18 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:20.523Z] <<< HTTP RESPONSE 200
+[info] i  storage: checking storage.rules for compilation errors...
+[debug] [2018-02-26T19:44:20.526Z] >>> HTTP REQUEST POST https://firebaserules.googleapis.com/v1/projects/mukemmel-projem-e2ff3:test  
+ { source: { files: [ [Object] ] } } 
+ Mon Feb 26 2018 22:44:20 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:22.497Z] <<< HTTP RESPONSE 200
+[info] ✔  storage: rules file storage.rules compiled successfully
+[info] i  firestore: checking firestore.rules for compilation errors...
+[debug] [2018-02-26T19:44:22.500Z] >>> HTTP REQUEST POST https://firebaserules.googleapis.com/v1/projects/mukemmel-projem-e2ff3:test  
+ { source: { files: [ [Object] ] } } 
+ Mon Feb 26 2018 22:44:22 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:23.354Z] <<< HTTP RESPONSE 200
+[info] ✔  firestore: rules file firestore.rules compiled successfully
+[debug] [2018-02-26T19:44:23.356Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "~5.8.1",
+    "firebase-functions": "^0.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-plugin-promise": "^3.6.0"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2018-02-26T19:44:23.356Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/mukemmel-projem-e2ff3?view=CONSUMER_VIEW  
+  
+ Mon Feb 26 2018 22:44:23 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:23.357Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/mukemmel-projem-e2ff3?view=CONSUMER_VIEW  
+  
+ Mon Feb 26 2018 22:44:23 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:25.548Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-26T19:44:25.623Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2018-02-26T19:44:25.624Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/mukemmel-projem-e2ff3  
+  
+ Mon Feb 26 2018 22:44:25 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:25.624Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/mukemmel-projem-e2ff3/apiKeys  
+  
+ Mon Feb 26 2018 22:44:25 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:26.979Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-26T19:44:27.045Z] <<< HTTP RESPONSE 200
+[info] i  storage: uploading rules storage.rules...
+[debug] [2018-02-26T19:44:27.049Z] >>> HTTP REQUEST POST https://firebaserules.googleapis.com/v1/projects/mukemmel-projem-e2ff3/rulesets  
+ { source: { files: [ [Object] ] } } 
+ Mon Feb 26 2018 22:44:27 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:28.206Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-26T19:44:28.206Z] [rules] created ruleset projects/mukemmel-projem-e2ff3/rulesets/1271787a-9151-481c-815a-6cfb24edcaf4
+[info] i  firestore: uploading rules firestore.rules...
+[debug] [2018-02-26T19:44:28.207Z] >>> HTTP REQUEST POST https://firebaserules.googleapis.com/v1/projects/mukemmel-projem-e2ff3/rulesets  
+ { source: { files: [ [Object] ] } } 
+ Mon Feb 26 2018 22:44:28 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:28.208Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1beta1/projects/mukemmel-projem-e2ff3/databases/(default)/indexes  
+  
+ Mon Feb 26 2018 22:44:28 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:29.212Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-26T19:44:29.212Z] [rules] created ruleset projects/mukemmel-projem-e2ff3/rulesets/f7ef122e-e86b-480d-83ac-a26938ac19ad
+[debug] [2018-02-26T19:44:29.642Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2018-02-26T19:44:29.644Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/mukemmel-projem-e2ff3/configs  
+  
+ Mon Feb 26 2018 22:44:29 GMT+0300 (+03)
+[debug] [2018-02-26T19:44:31.028Z] <<< HTTP RESPONSE 200
+[info] i  hosting: preparing KoalaApp directory for upload...
+[debug] [2018-02-26T19:44:32.023Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/mukemmel-projem-e2ff3/uploads/-L6IdGJyh3BrejcB0wj-?fileCount=86&message=  
+  
+ Mon Feb 26 2018 22:44:32 GMT+0300 (+03)

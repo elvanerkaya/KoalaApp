@@ -1,0 +1,14 @@
+.btn-color {
+  background-color: #4ebb9b;
+  border-color: #4ebb9b;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken(#4ebb9b, 10%) !important;
+    border-color: darken(#4ebb9b, 10%) !important;
+  }
+}
+
+.input {
+  font-weight: 300 !important;
+}
